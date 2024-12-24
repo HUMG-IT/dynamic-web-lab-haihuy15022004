@@ -5,6 +5,8 @@ const { submitBMI } = require("../controllers/bmiController.js");
 
 // Route cho endpoint /submit
 router.post("/submit", submitName);
-router.post("/submit", submitBMI);
+
+// Route cho endpoint /submit-bmi
+router.post("/submit-bmi", submitBMI);
 
 module.exports = router;

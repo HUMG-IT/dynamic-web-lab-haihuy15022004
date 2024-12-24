@@ -6,8 +6,8 @@ const calculateBMI = (weight, height) => {
   return bmi;
 };
 
-const addBMI = (bmi) => {
-  bmiData.push(bmi);
+const addBMI = (bmiRecord) => {
+  bmiData.push(bmiRecord);
 };
 
 const getBMIs = () => {
